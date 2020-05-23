@@ -37,6 +37,10 @@
   }
 }
 
+.title {
+  font-family: 'open sans',arial,sans-serif;
+}
+
 .animObj {
   /* display: flex; */
   display:inline-block;
