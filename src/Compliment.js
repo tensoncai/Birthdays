@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import { Card, CardTitle, CardText } from 'reactstrap';
 
 class Compliment extends React.Component {
 
@@ -18,7 +18,7 @@ class Compliment extends React.Component {
       <div className="Compliment">
         <Card body>
           <CardTitle>{this.props.title}</CardTitle>
-          <CardText>{this.props.text}</CardText>
+          <CardText className="cardText">{this.props.text}</CardText>
         </Card>
       </div>
     );

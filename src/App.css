@@ -42,49 +42,30 @@
 }
 
 .animObj {
-  /* display: flex; */
   display:inline-block;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* text-align: center;
-  margin-top: 0px;
-  position: absolute;
-  top: 150px;
-  margin-left: 365px; */
-  /* position: absolute;
-  left: 50%;
-  top: 50%; */
-  /* background-color: transparent;
-  height: 150px;
-  margin-top: -200px;
-  width: 300px;
-  margin-left: -140px; */
 }
 
- /* .Compliment {
-    border: solid 1px black;
-    position: absolute;
-    text-align: center;
-    top: 30px;
-    margin-left: 423px;
-    background-color: transparent;
-    height: 150px;
-    width: 300px;
-    transition: opacity 0.5s;
-    opacity: 1;
-}  */
 
 .Compliment {
-  /* display: flex; */
   display:inline-block;
   justify-content: center;
   align-items: center;
 }
 
 .playButton {
-  /* display: flex;*/
   display:inline-block;
   justify-content: center;
   align-items: center;
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: rgb(85, 58, 242);
+  width: 250px;
+  color: white;
+}
+
+.cardText {
+  font-size: 23px;
 }
