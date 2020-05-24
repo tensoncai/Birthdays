@@ -25,7 +25,11 @@ class App extends React.Component {
           "Can I go to the parties with you when you win a Grammy?",
           "Your pop artist name should be \"3Gees\", aka Girl Got Game.",
           "Food coma buddy.  Nuff said.",
+          "Zoe in BAP: \"I can do it all myself\". Can you run for Congress? We need more reps with a can do attitude!",
+          "Your violin skills are out of this world! Take a bow!",
+          "I admire your ambitious and hardworking attitude",
           "Roll call: faith, hope, and love--I think you have them all!",
+          "You're a wonderful and kind hearted friend",
           "In all seriousness, you're a wonderful friend and I'm so thankful to have gotten to know you! <3"
         ], 
         [
@@ -35,6 +39,15 @@ class App extends React.Component {
           "There are 5.8 million people in Wisconsin.  But I think there's really only one person I'd go there to see!  (sorry this totally sounds like a pick-up line lol)",
           "You really take-after Michelle Obama--everyone seems to be \"becoming\" like you (in quarantine)! :)",
           "David Dang puts Parma on the map.",
+          "Where's David? Thinking back, the best memories happened when we could find David",
+          "From the land before time to the 21st century, David Dang is a timeless treasure :)",
+          "For someone who can't swim, you were a lifeguard to me in BME =D",
+          "Thanks for showing us the b-ball moves. Now show them to a special someone ;)",
+          "Always reliable, always focused, you'll always be the leader of the suite",
+          "You're not afraid to admit that your sister is cooler than you #braveboi",
+          "You're a wonderful and kind hearted friend",
+          "You readily help others and show patience when doing so",
+          "You act selflessly in the way that you care for those around you",
           "Roll call: faith, hope, and love--I think you have them all!",
           "In all seriousness, you're a wonderful friend and I'm so thankful to have gotten to know you! <3"
         ],
@@ -45,6 +58,10 @@ class App extends React.Component {
           "Whenever I want to talk to my profs about something deep and a maybe a little too personal, I try think of how you did it so smoothly :D",
           "You're a real warm person...I wonder if the rosy red coat has something to do with it?",
           "When are you going to lead Bstudy again?  The world needs your guidance.",
+          "Your brewing skills brought all the boys to the suite",
+          "SC2: It was great seeing you micro to victory. Now micro to your \"bagel's\" heart (Coffee meets Bagel)",
+          "You're a wonderful and kind hearted friend",
+          "You're a very caring and selfless friend. You are generous with giving your time for others",
           "Roll call: faith, hope, and love--I think you have them all!",
           "In all seriousness, you're a wonderful friend and I'm so thankful to have gotten to know you! <3"
         ]
@@ -105,7 +122,7 @@ class App extends React.Component {
     setTimeout(this.handleStop, 2500);
 
     index++;
-    if (index >= this.state.compliments[0].length) {
+    if (index >= this.state.compliments[name].length) {
       index = 0;
       if (name < this.state.persons.length - 1) {
         name++;
