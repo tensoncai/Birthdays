@@ -11,12 +11,12 @@ var index = -1;
 var name = 0;
 class App extends React.Component {
 
-  constructor(props) {    
+  constructor(props) {
     super(props);
     this.state = {
       displayCompliment: false,
       disablePlayButton: false,
-      compliments: 
+      compliments:
       [
         [
           "You give \"nevertheless she persisted\" a whole new meaning.",
@@ -131,8 +131,6 @@ class App extends React.Component {
         name = 0;
       }
     }
-
-    console.log("index = " + index);
   }
 
   render() {
