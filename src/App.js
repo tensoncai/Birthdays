@@ -48,6 +48,7 @@ class App extends React.Component {
           "You're a wonderful and kind hearted friend",
           "You readily help others and show patience when doing so",
           "You act selflessly in the way that you care for those around you",
+          "Thanks for showing me there's more to Wisconsin than beer and cheese - seeing as you don't care for either.",
           "Roll call: faith, hope, and love--I think you have them all!",
           "In all seriousness, you're a wonderful friend and I'm so thankful to have gotten to know you! <3"
         ],
@@ -60,6 +61,8 @@ class App extends React.Component {
           "When are you going to lead Bstudy again?  The world needs your guidance.",
           "Your brewing skills brought all the boys to the suite",
           "SC2: It was great seeing you micro to victory. Now micro to your \"bagel's\" heart (Coffee meets Bagel)",
+          "Thanks for not being afraid to try dumb adventures.",
+          "You're one of the most genuine people I know.",
           "You're a wonderful and kind hearted friend",
           "You're a very caring and selfless friend. You are generous with giving your time for others",
           "Roll call: faith, hope, and love--I think you have them all!",
